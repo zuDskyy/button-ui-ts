@@ -1,0 +1,32 @@
+{
+  "name": "@zudskyy/button-ui-ts",
+  "version": "1.0.5",
+  "description": "button ui with ts  ",
+  "main": "dist/index.js",
+  "types": "typings/index.d.ts",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zudskyy",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/zudskyy/button-ui-ts.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "global": "^4.4.0",
+    "react": "^18.2.0",
+    "tailwind-merge": "^1.14.0",
+    "tsconfig.json": "^1.0.11",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.33"
+  }
+}

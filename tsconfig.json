@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "declaration": true,
+      "declarationDir": "./typings",
+      "jsx":"preserve",
+      "esModuleInterop": true,
+      "lib": ["es2015"],
+  
+    }
+  }
